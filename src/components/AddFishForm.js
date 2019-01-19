@@ -17,6 +17,7 @@ export default class AddFishForm extends Component {
       }
 
     this.props.addFish(fish);
+    e.currentTarget.reset();
   }
   render() {
     return (
