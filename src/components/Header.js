@@ -21,7 +21,7 @@ const Header = ({tagline}) => (
     </header>
 );
 
-Header.PropTypes = {
+Header.propTypes = {
     tagline: PropTypes.string
 }
 

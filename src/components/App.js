@@ -100,6 +100,7 @@ class App extends Component {
           deleteFish={this.deleteFish} 
           loadSampleFish={this.loadSampleFish} 
           fishes={this.state.fishes}
+          storeId={this.props.match.params.storeId}
         />
       </div>
     )
